@@ -1,10 +1,19 @@
-import './App.css'
-import TodoList from "./components/TodoList.jsx";
+
+import {Header} from "./components/containers/Header/Header.jsx";
+import {Footer} from "./components/containers/Footer/Footer.jsx";
+
 
 function App() {
-    <div className="App">
-        <TodoList />
-    </div>
+
+   return (
+       <>
+         <div>
+            <Header />
+            <Footer />
+         </div>
+
+       </>
+   )
 }
 
 export default App
