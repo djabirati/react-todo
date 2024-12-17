@@ -1,6 +1,8 @@
 
 import {Header} from "./components/containers/Header/Header.jsx";
 import {Footer} from "./components/containers/Footer/Footer.jsx";
+import ButtonSubmit from "./components/ui/Button/ButtonSubmit.jsx";
+import {User} from "./components/User/User.jsx";
 
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
        <>
          <div>
             <Header />
+             <ButtonSubmit />
+             <User/>
             <Footer />
          </div>
 
