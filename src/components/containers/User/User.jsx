@@ -1,5 +1,5 @@
-import {Fullname} from "./Fullname.jsx";
-import {Hobbies} from "./Hobbies.jsx";
+import {Fullname} from "../Fullname/Fullname.jsx";
+import {Hobbies} from "../Hobbies/Hobbies.jsx";
 
 export function User() {
 
