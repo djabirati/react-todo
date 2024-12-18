@@ -1,6 +1,7 @@
 export default function ButtonSubmit( ) {
     return (
-        <button>
+        <button
+        className="b-none p-2 rounded">
             Valider
         </button>
     )

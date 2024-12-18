@@ -7,7 +7,11 @@ import './index.css';
 import {Player} from "./components/containers/Player/Player.jsx";
 
 function App() {
-
+    const user = {
+        prenom: "Djabirati",
+        nom: "Marthadi",
+        hobbies: ["volleyball", "Lecture"]
+    }
    return (
        <>
          <div>
