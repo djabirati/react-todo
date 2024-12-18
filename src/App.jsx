@@ -5,6 +5,8 @@ import ButtonSubmit from "./components/ui/Button/ButtonSubmit.jsx";
 import {User} from "./components/containers/User/User.jsx";
 import './index.css';
 import {Player} from "./components/containers/Player/Player.jsx";
+import {Hobbies} from "./components/containers/Hobbies/Hobbies.jsx";
+import {Fullname} from "./components/containers/Fullname/Fullname.jsx";
 
 function App() {
     const user = {
@@ -17,7 +19,8 @@ function App() {
          <div>
             <Header />
              <ButtonSubmit />
-             <User/>
+             <Fullname prenom={user.prenom} nom={user.nom} />
+             <Hobbies hobbies={user.hobbies} />
              <Player />
             <Footer />
          </div>

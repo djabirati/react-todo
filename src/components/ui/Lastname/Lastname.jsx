@@ -1,5 +1,5 @@
-export function Lastname() {
+export function Lastname(props) {
     return (
-        <p>Marthadi</p>
+        <p>{props.nom}</p>
     )
 }
